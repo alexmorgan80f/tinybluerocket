@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Tiny Blue Rocket Closure Notice</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiny Blue Rocket</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" type="image/jpeg" href="images/TBR Favicon.jpg">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .logo-text {
+            color: #4F46E5; /* Tailwind indigo-500 */
+        }
+    </style>
 </head>
-<body>
-    <header>
-        
-    </header>
-    
-    <main>
-      <div class="flex-container-header">
-        <div class="flex-item" style="width: 30%;">
-          <!-- Content for the 30% width div -->
-          <img src="images/Tiny Blue Rocket.svg" alt="Tiny Blue Rocket Logo" class="logo">
-        </div>
-        <div class="flex-item" style="width: 70%;">
-          <div></div>
-        </div>
-      </div>  
-      
-      <div class="flex-container-main">
-            <h1>We have closed!</h1>
-            <p>Tiny Blue Rocket as a web agency has closed. <br>We are no longer about to help you get your perfect website.</p>
-            <img src="images/people-working-together-website.jpg" alt="people working together website" class="image-main">
-        </div>
-    </main>
-    
-    <footer>
-        
-    </footer>
+<body class="bg-white text-gray-800">
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+        <header class="text-center mb-10">
+            <h1 class="text-2xl font-semibold mb-2">We have closed!</h1>
+            <p class="text-lg">Tiny Blue Rocket as a web agency has closed.<br>We are no longer about to help you get your perfect website.</p>
+        </header>
+        <main>
+            <img src="images/people-working-together-website.jpg" alt="Two people smiling and looking at a laptop in a cafe environment, depicting a casual business discussion" class="rounded">
+        </main>
+    </div>
 </body>
 </html>
