@@ -10,6 +10,7 @@ h1 {
     color: #0e0c38; /* Changed to white */
     margin-bottom: 1rem;
     align-items: center;
+    text-align: center
 }
 
 /* Styling for P (paragraph) */
@@ -20,6 +21,7 @@ p {
     color:#0e0c38; /* Changed to white */
     margin-bottom: 1rem;
     align-items: center;
+    text-align: center
 }
 
 .flex-container {
